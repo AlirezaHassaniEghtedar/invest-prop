@@ -1,0 +1,242 @@
+main {
+  .about-us {
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--color-text-03);
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .about-us-section-01 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 108px;
+      gap: 8rem;
+
+      .right-section {
+        p {
+          font-size: 1.5rem;
+          font-weight: 300;
+          text-align: center;
+        }
+      }
+
+      .left-section {
+        img {
+          max-width: 496px;
+        }
+      }
+    }
+
+    .about-us-section-02 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 108px;
+      gap: 8rem;
+
+      .right-section {
+        img {
+          max-width: 496px;
+        }
+      }
+
+      .left-section {
+        p {
+          font-size: 1.5rem;
+          font-weight: 300;
+          text-align: center;
+        }
+      }
+    }
+
+    .about-us-social-medias {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 108px;
+      gap: 8rem;
+      margin-top: 100px;
+
+      .right-section {
+        display: flex;
+        flex-flow: column;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: var(--color-text-03);
+          text-align: center;
+        }
+
+        .social-media-icons {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 1.5rem;
+          align-items: center;
+
+          img {
+            max-width: 184px;
+            transition: filter ease 0.3s;
+          }
+
+          img:hover {
+            filter: saturate(1.5);
+          }
+        }
+      }
+
+      .left-section {
+        img {
+          max-width: 496px;
+        }
+
+        .social-media-icons {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  main {
+    .about-us {
+      & .about-us-section-01 {
+        padding-inline: 16px;
+      }
+
+      & .about-us-section-02 {
+        padding-inline: 16px;
+        margin-bottom: 20px;
+      }
+
+      .about-us-social-medias {
+        padding-inline: 16px;
+        gap: 3rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1150px) {
+    main {
+      .about-us {
+        h1 {
+          margin-bottom: 10px;
+        }
+        .about-us-section-01 {
+          gap: 3rem !important;
+        }
+
+        .about-us-section-02 {
+          gap: 3rem !important;
+        }
+
+        .about-us-section-01 {
+          gap: 3rem !important;
+        }
+
+        .about-us-section-02 {
+          gap: 3rem !important;
+        }
+
+        .about-us-social-medias {
+          flex-flow: column;
+
+          .left-section {
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+
+            .social-media-icons {
+              display: inline-flex !important;
+              width: 100%;
+              justify-content: center;
+              /* gap: 1.5rem; */
+              align-items: center;
+
+              img {
+                max-width: 100px;
+              }
+            }
+          }
+
+          .right-section {
+            .social-media-icons {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about-us-section-01 {
+    flex-flow: column-reverse;
+    gap: 20px !important;
+
+    & .right-section {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .about-us-section-02 {
+    flex-flow: column;
+    gap: 20px !important;
+
+    & .left-section {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .about-us-social-medias {
+    .right-section {
+        h2 {
+            font-size: 1.5rem !important;
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  main {
+    .about-us {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .about-us-section-01 {
+        & .left-section {
+          & img {
+            max-width: 100% !important;
+          }
+        }
+      }
+
+      & .about-us-section-02 {
+        & .right-section {
+          & img {
+            max-width: 100% !important;
+          }
+        }
+      }
+
+      .about-us-social-medias {
+        .left-section {
+          img {
+            max-width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
