@@ -56,18 +56,23 @@ main {
         gap: 10px;
 
         &.active button {
-          background: var(--color-primary);
+          /* background: var(--color-primary); */
 
           p {
-            color: var(--color-white);
+            /* color: var(--color-white); */
           }
         }
 
+        button img:not(.white) {
+          transition: transform ease 0.3s;
+        }
+
         &.active button img:not(.white) {
-          display: none;
+          transform: rotate(180deg);
+          transition: transform ease 0.3s;
         }
         &.active button img.white {
-          display: block;
+          /* display: block; */
         }
 
         &.active .content {

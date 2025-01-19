@@ -1,5 +1,5 @@
 body {
-  background: var(--color-blue-02);
+  border-bottom: 0;
 }
 
 .signup {

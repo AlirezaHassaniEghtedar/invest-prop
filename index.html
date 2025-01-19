@@ -1,428 +1,885 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SkyProp</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header>
-      <div class="right-section">
-        <img src="./assets/icons/mobile menu icon.svg" class="mobile-menu-icon" alt="" />
-        <a href="./index.html" class="logo-container"><img src="./assets/images/Logo.svg" class="logo hover-Y"
-            alt="logo" /></a>
-        <nav>
-          <div class="upper-section">
-            <a href="./index.html"><img src="./assets/images/Nav Logo.png" class="nav-logo" alt="" /></a>
-            <span class="close-btn">&times;</span>
-          </div>
-          <ul>
-            <li><a href="./index.html"  class="active">صفحه اصلی</a></li>
-            <li><a href="./#plansSection">پلن ها</a></li>
-            <li><a href="./rules.html">قوانین</a></li>
-            <li><a href="./blog.html">وبلاگ</a></li>
-            <li><a href="./about-us.html">درباره ما</a></li>
-            <li><a href="./contact-us.html">تماس با ما</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="action-buttons">
-        <a href="./cart.html" class="hover-Y"><img src="./assets/icons/Shopping Cart.svg" alt="" /></a>
-        <a href="./login.html" class="hover-Y"><img src="./assets/icons/Customer.svg" alt="" /></a>
-      </div>
-    </header>
-    <!-- Header End -->
 
-    <!-- Main Start -->
-    <main>
-      <!-- Hero Section Start -->
-      <div class="heroSection">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="right-section">
-                <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
-                <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h1>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است
-                </p>
-                <div class="action-buttons">
-                  <a href="#" class="hover-Y"
-                    >لورم ایپسوم<img
-                      src="./assets/icons/HeroSection Action Button.svg"
-                      alt=""
-                  /></a>
-                  <a href="#" class="hover-Y">لورم ایپسوم</a>
-                </div>
-              </div>
-              <div class="left-section">
-                <div class="background-layer-01">
-                  <img
-                    src="./assets/images/04.png"
-                    class="radial-bacgkround"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <img
-            src="./assets/icons/Backward Arrow.svg"
-            class="swiper-button-next"
-            alt=""
-          />
-          <img
-            src="./assets/icons/Forward Arrow.svg"
-            class="swiper-button-prev"
-            alt=""
-          />
-          <div class="swiper-pagination"></div> -->
-        </div>
-      </div>
-      <!-- Hero Section End -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyProp</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/border-animation.css" />
+  <link rel="stylesheet" href="./assets/css/particlejs.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Particle Js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-      <!-- Cards Section Start -->
-      <div class="cards-section">
-        <h2>لورم ایپسوم متن ساختگی</h2>
-        <div class="cards">
-          <div class="card up">
-            <img src="./assets/images/05.png" alt="" />
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است
-            </p>
-          </div>
-          <div class="card down">
-            <img src="./assets/images/12.png" alt="" />
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است
-            </p>
-          </div>
-          <div class="card down">
-            <img src="./assets/images/06.png" alt="" />
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است
-            </p>
-          </div>
-          <div class="card up">
-            <img src="./assets/images/13.png" alt="" />
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Cards Section End -->
+</head>
 
-      <!-- Section 01 Start -->
-      <div class="section-01">
-        <div class="right-section">
-          <img src="./assets/images/21.png" alt="" />
+<body>
+  <!-- Header Start -->
+  <header>
+    <div class="right-section">
+      <img src="./assets/icons/mobile menu icon.svg" class="mobile-menu-icon" alt="" />
+      <a href="./index.html" class="logo-container"><img src="./assets/images/Logo/Asset 1.png" class="logo hover-Y"
+          alt="logo" /></a>
+      <nav>
+        <div class="upper-section">
+          <a href="./index.html"><img src="./assets/images/Nav-Mobile_menu-Logo.svg" class="nav-logo" alt="" /></a>
+          <span class="close-btn">&times;</span>
         </div>
-        <div class="left-section">
-          <h3>لورم ایپسوم متن ساختگی</h3>
-          <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
-            در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را
-            می طلبد
-          </p>
-        </div>
-      </div>
-      <!-- Section 01 End -->
+        <ul>
+          <li><a href="./index.html" class="active">صفحه اصلی</a></li>
+          <li><a href="./#plansSection">پلن ها</a></li>
+          <li><a href="./rules.html">قوانین</a></li>
+          <li><a href="./blog.html">وبلاگ</a></li>
+          <li><a href="./about-us.html">درباره ما</a></li>
+          <li><a href="./contact-us.html">تماس با ما</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="action-buttons">
+      <a href="./login.html" class="hover-Y entrance">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <g fill="none">
+            <path
+              d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+            <path fill="currentColor"
+              d="M12 3a1 1 0 0 1 .117 1.993L12 5H7a1 1 0 0 0-.993.883L6 6v12a1 1 0 0 0 .883.993L7 19h4.5a1 1 0 0 1 .117 1.993L11.5 21H7a3 3 0 0 1-2.995-2.824L4 18V6a3 3 0 0 1 2.824-2.995L7 3zm2.293 5.464a1 1 0 0 1 1.497 1.32l-.083.095L14.586 11H20a1 1 0 0 1 .117 1.993L20 13h-5.414l1.121 1.121a1 1 0 0 1-1.32 1.498l-.094-.083l-2.829-2.829a1 1 0 0 1-.083-1.32l.083-.094z" />
+          </g>
+        </svg>
+        <span>ورود | ثبت نام</span>
+      </a>
+      <a href="./cart.html" class="hover-Y cart"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+          viewBox="0 0 24 24">
+          <path fill="currentColor" d="M7.25 9A.75.75 0 0 1 8 8.25h3a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 9" />
+          <path fill="currentColor" fill-rule="evenodd"
+            d="M1.289 2.763a.75.75 0 0 1 .948-.475l.305.102c.626.209 1.155.385 1.572.579c.442.206.826.46 1.117.865c.291.403.412.848.467 1.333l.009.083h10.804c.976 0 1.792 0 2.417.092c.651.097 1.28.318 1.676.92c.396.6.352 1.265.184 1.902c-.16.61-.482 1.36-.867 2.258l-.467 1.089c-.176.412-.332.775-.493 1.062c-.175.31-.388.592-.711.805s-.667.298-1.021.337c-.328.035-.722.035-1.17.035H6.154c.074.134.159.244.255.341c.277.277.666.457 1.4.556c.755.101 1.756.103 3.191.103h8a.75.75 0 0 1 0 1.5h-8.055c-1.367 0-2.47 0-3.337-.116c-.9-.122-1.658-.38-2.26-.982s-.86-1.36-.981-2.26c-.117-.867-.117-1.97-.117-3.337V6.883c0-.713 0-1.185-.042-1.546c-.04-.342-.107-.506-.194-.626c-.086-.12-.221-.237-.533-.382c-.33-.153-.777-.304-1.453-.53l-.265-.087a.75.75 0 0 1-.474-.95m4.518 9.487h10.215c.496 0 .809-.001 1.046-.027c.219-.023.303-.062.356-.097s.122-.097.23-.289c.117-.208.24-.495.436-.95l.429-1c.414-.968.69-1.616.819-2.106c.126-.476.062-.62.014-.694c-.049-.073-.157-.189-.644-.26c-.501-.075-1.205-.077-2.257-.077H5.75V9.5c0 1.172 0 2.054.056 2.75m1.694 9.5a2.25 2.25 0 1 1 0-4.5a2.25 2.25 0 0 1 0 4.5m-.75-2.25a.75.75 0 1 0 1.5 0a.75.75 0 0 0-1.5 0m7.5 0a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 0 0-4.5 0m2.25.75a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5"
+            clip-rule="evenodd" />
+        </svg></a>
+    </div>
+  </header>
+  <!-- Header End -->
 
-      <!-- Plans Section Start -->
-      <div class="plans-section" id="plansSection">
-        <h2>چالش های اسکای پراپ</h2>
-        <span class="plans-headers-span"
-          >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-        </span>
-        <div class="plans-buttons">
-          <button class="hover-Y active">تک مرحله ای</button>
-          <button class="hover-Y">دو مرحله ای</button>
-          <button class="hover-Y">تک مرحله ای</button>
-        </div>
-
-        <div class="swiper-wrapper-container">
-          <div class="swiper-container plans-C">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="plan swiper-slide">
-                  <div class="plans-header">
-                    <h4>50,000$</h4>
-                    <span class="header-span">چالش پیشرفت</span>
-                    <ul>
-                      <li>
-                        <span>مدت زمان</span>
-                        <span>نامحدود</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر روزانه</span>
-                        <span>5 %</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر کلی</span>
-                        <span>12 %</span>
-                      </li>
-                      <li>
-                        <span>تارگت سود</span>
-                        <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
-                      </li>
-                      <li>
-                        <span>حداقل روز ترید در چالش</span>
-                        <span>5 %</span>
-                      </li>
-                    </ul>
-                    <a href="#" class="hover-Y">لورم ایپسوم</a>
-                  </div>
-                </div>
-                <div class="plan swiper-slide">
-                  <div class="plans-header">
-                    <h4>50,000$</h4>
-                    <span class="header-span">چالش پیشرفت</span>
-                    <ul>
-                      <li>
-                        <span>مدت زمان</span>
-                        <span>نامحدود</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر روزانه</span>
-                        <span>5 %</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر کلی</span>
-                        <span>12 %</span>
-                      </li>
-                      <li>
-                        <span>تارگت سود</span>
-                        <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
-                      </li>
-                      <li>
-                        <span>حداقل روز ترید در چالش</span>
-                        <span>5 %</span>
-                      </li>
-                    </ul>
-                    <a href="#" class="hover-Y">لورم ایپسوم</a>
-                  </div>
-                </div>
-                <div class="plan swiper-slide">
-                  <div class="plans-header">
-                    <h4>50,000$</h4>
-                    <span class="header-span">چالش پیشرفت</span>
-                    <ul>
-                      <li>
-                        <span>مدت زمان</span>
-                        <span>نامحدود</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر روزانه</span>
-                        <span>5 %</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر کلی</span>
-                        <span>12 %</span>
-                      </li>
-                      <li>
-                        <span>تارگت سود</span>
-                        <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
-                      </li>
-                      <li>
-                        <span>حداقل روز ترید در چالش</span>
-                        <span>5 %</span>
-                      </li>
-                    </ul>
-                    <a href="#" class="hover-Y">لورم ایپسوم</a>
-                  </div>
-                </div>
-                <div class="plan swiper-slide">
-                  <div class="plans-header">
-                    <h4>50,000$</h4>
-                    <span class="header-span">چالش پیشرفت</span>
-                    <ul>
-                      <li>
-                        <span>مدت زمان</span>
-                        <span>نامحدود</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر روزانه</span>
-                        <span>5 %</span>
-                      </li>
-                      <li>
-                        <span>حد ضرر کلی</span>
-                        <span>12 %</span>
-                      </li>
-                      <li>
-                        <span>تارگت سود</span>
-                        <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
-                      </li>
-                      <li>
-                        <span>حداقل روز ترید در چالش</span>
-                        <span>5 %</span>
-                      </li>
-                    </ul>
-                    <a href="#" class="hover-Y">لورم ایپسوم</a>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="./assets/icons/Backward Arrow.svg"
-                class="swiper-button-next"
-                alt=""
-              />
-              <img
-                src="./assets/icons/Forward Arrow.svg"
-                class="swiper-button-prev"
-                alt=""
-              />
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Plans Section End -->
-
-      <!-- Section 02 Start -->
-      <div class="section-02">
-        <div class="right-section">
-          <h3>لورم ایپسوم متن ساختگی</h3>
-          <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
-            در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را
-            می طلبد
-          </p>
-        </div>
-        <div class="left-section">
-          <img src="./assets/images/16.png" alt="" />
-        </div>
-      </div>
-      <!-- Section 02 End -->
-
-      <!-- Videos Section Start -->
-      <div class="videos-section">
-        <h3>ویدیو آموزشی برای معامله گران</h3>
+  <!-- Main Start -->
+  <main>
+    <!-- Hero Section Start -->
+    <div class="heroSection">
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper-container">
           <div class="swiper-container">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="right-section">
+                  <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+                  <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h1>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                    مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="action-buttons">
+                    <a href="#" class="hover-Y">لورم ایپسوم<img src="./assets/icons/HeroSection Action Button.svg"
+                        alt="" /></a>
+                    <a href="#" class="hover-Y">لورم ایپسوم</a>
+                  </div>
                 </div>
-                <div class="swiper-slide">
-                  <a href="#"><img src="./assets/images/28.png" alt="" /></a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#"><img src="./assets/images/28.png" alt="" /></a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+                <div class="left-section">
+                  <div class="background-layer-01">
+                    <img src="./assets/images/04.png" class="radial-bacgkround" alt="" />
+                  </div>
                 </div>
               </div>
-              <img
-                src="./assets/icons/Backward Arrow.svg"
-                class="swiper-button-next"
-                alt=""
-              />
-              <img
-                src="./assets/icons/Forward Arrow.svg"
-                class="swiper-button-prev"
-                alt=""
-              />
-              <!-- <div class="swiper-pagination"></div> -->
+              <div class="swiper-slide">
+                <div class="right-section">
+                  <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+                  <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h1>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                    مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="action-buttons">
+                    <a href="#" class="hover-Y">لورم ایپسوم<img src="./assets/icons/HeroSection Action Button.svg"
+                        alt="" /></a>
+                    <a href="#" class="hover-Y">لورم ایپسوم</a>
+                  </div>
+                </div>
+                <div class="left-section">
+                  <div class="background-layer-01">
+                    <img src="./assets/images/04.png" class="radial-bacgkround" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="right-section">
+                  <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+                  <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h1>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                    مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="action-buttons">
+                    <a href="#" class="hover-Y">لورم ایپسوم<img src="./assets/icons/HeroSection Action Button.svg"
+                        alt="" /></a>
+                    <a href="#" class="hover-Y">لورم ایپسوم</a>
+                  </div>
+                </div>
+                <div class="left-section">
+                  <div class="background-layer-01">
+                    <img src="./assets/images/04.png" class="radial-bacgkround" alt="" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <img src="./assets/icons/Backward Arrow.svg" class="swiper-button-prev" alt="" />
+        <img src="./assets/icons/Forward Arrow.svg" class="swiper-button-next" alt="" />
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- Videos Section End -->
+    </div>
+    <!-- Hero Section End -->
 
-      <!-- PreFooter Start -->
-      <div class="prefooter">
-        <div class="right-section">
-          <h2>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h2>
-          <a href="" class="hover-Y"
-            >لورم ایپسوم<img src="./assets/icons/PreFooter Forward.svg" alt=""
-          /></a>
-        </div>
-        <div class="left-section">
-          <img src="./assets/images/18.png" alt="" />
-        </div>
-      </div>
-      <!-- PreFooter End -->
-    </main>
-    <!-- Main End -->
-
-    <!-- Footer Start -->
-    <footer>
-      <div class="upper-section">
-        <div class="right-section">
-          <a href="#"
-            ><img src="./assets/images/Logo (1).png" class="hover-Y" alt=""
-          /></a>
+    <!-- Cards Section Start -->
+    <div class="cards-section">
+      <h2>لورم ایپسوم متن ساختگی</h2>
+      <div class="cards">
+        <div class="card up">
+          <img src="./assets/images/05.png" alt="" />
           <p>
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+            استفاده از طراحان گرافیک است
           </p>
         </div>
-        <div class="useful-links">
-          <h5>لینک های مفید</h5>
-          <ul>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-          </ul>
+        <div class="card down">
+          <img src="./assets/images/12.png" alt="" />
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
-        <div class="useful-links">
-          <h5>لینک های مفید</h5>
-          <ul>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-          </ul>
+        <div class="card down">
+          <img src="./assets/images/06.png" alt="" />
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
-        <div class="useful-links">
-          <h5>لینک های مفید</h5>
-          <ul>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-            <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
-          </ul>
+        <div class="card up">
+          <img src="./assets/images/13.png" alt="" />
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
       </div>
-      <div class="social-medias">
-        <a href="#"
-          ><img src="./assets/icons/Telegram App.svg" class="hover-Y" alt=""
-        /></a>
-        <a href="#"
-          ><img src="./assets/icons/Instagram.svg" class="hover-Y" alt=""
-        /></a>
-        <a href="#"
-          ><img src="./assets/icons/WhatsApp.svg" class="hover-Y" alt=""
-        /></a>
-      </div>
-    </footer>
-    <!-- Footer End -->
+    </div>
+    <!-- Cards Section End -->
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./assets/script/index.js"></script>
-    <!-- Swiper -->
-  </body>
+    <!-- Section 01 Start -->
+    <div class="section-01">
+      <div class="right-section">
+        <img src="./assets/images/21.png" alt="" />
+      </div>
+      <div class="left-section">
+        <h3>لورم ایپسوم متن ساختگی</h3>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را
+          می طلبد
+        </p>
+      </div>
+    </div>
+    <!-- Section 01 End -->
+
+    <!-- Plans Section Start -->
+    <div class="plans-section" id="plansSection">
+      <h2>چالش های اسکای پراپ</h2>
+      <span class="plans-headers-span">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+      </span>
+      <div class="plans-buttons">
+        <button swiper-number="1" class="hover-Y active">تک مرحله ای</button>
+        <button swiper-number="2" class="hover-Y">دو مرحله ای</button>
+        <button swiper-number="3" class="hover-Y">تک مرحله ای</button>
+      </div>
+
+      <div class="swiper-wrapper-container">
+        <div id="particles-js"></div>
+        <div class="swiper-container">
+          <div class="swiper mySwiper active" id="1">
+            <div class="swiper-wrapper">
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>20,000$</h4>
+                  <span class="header-span">01 چالش پیشرفت</span>
+                </div>
+                <div class="prices">
+                  <span class="new-price">20$</span>
+                  <span class="prev-price">25$</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>20,000$</h4>
+                  <span class="header-span">01 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>20,000$</h4>
+                  <span class="header-span">01 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>20,000$</h4>
+                  <span class="header-span">01 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+            </div>
+            <img src="./assets/icons/Backward Arrow.svg" class="swiper-button-next" alt="" />
+            <img src="./assets/icons/Forward Arrow.svg" class="swiper-button-prev" alt="" />
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper mySwiper" id="2">
+            <div class="swiper-wrapper">
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>50,000$</h4>
+                  <span class="header-span">02 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>50,000$</h4>
+                  <span class="header-span">02 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>50,000$</h4>
+                  <span class="header-span">02 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>50,000$</h4>
+                  <span class="header-span">02 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+            </div>
+            <img src="./assets/icons/Backward Arrow.svg" class="swiper-button-next" alt="" />
+            <img src="./assets/icons/Forward Arrow.svg" class="swiper-button-prev" alt="" />
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper mySwiper" id="3">
+            <div class="swiper-wrapper">
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>75,000$</h4>
+                  <span class="header-span">03 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>75,000$</h4>
+                  <span class="header-span">03 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>75,000$</h4>
+                  <span class="header-span">03 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+              <div class="plan swiper-slide card-border-animation">
+                <div class="plans-header">
+                  <h4>75,000$</h4>
+                  <span class="header-span">03 چالش پیشرفت</span>
+                </div>
+                <ul>
+                  <li>
+                    <span>مدت زمان</span>
+                    <span>نامحدود</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر روزانه</span>
+                    <span>5 %</span>
+                  </li>
+                  <li>
+                    <span>حد ضرر کلی</span>
+                    <span>12 %</span>
+                  </li>
+                  <li>
+                    <span>تارگت سود</span>
+                    <span>فاز 1 : 8 % | فاز 2 : 4 %</span>
+                  </li>
+                  <li>
+                    <span>حداقل روز ترید در چالش</span>
+                    <span>5 %</span>
+                  </li>
+                </ul>
+                <div class="broker-select">
+                  <select name="selectBroker" id="selectBroker">
+                    <option value="option-1">option-1</option>
+                    <option value="option-2">option-2</option>
+                    <option value="option-3">option-3</option>
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                      <path fill="currentColor"
+                        d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z" />
+                    </g>
+                  </svg>
+                </div>
+                <a href="#" class="hover-Y">لورم ایپسوم</a>
+              </div>
+            </div>
+            <img src="./assets/icons/Backward Arrow.svg" class="swiper-button-next" alt="" />
+            <img src="./assets/icons/Forward Arrow.svg" class="swiper-button-prev" alt="" />
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Plans Section End -->
+
+    <!-- Section 02 Start -->
+    <div class="section-02">
+      <div class="right-section">
+        <h3>لورم ایپسوم متن ساختگی</h3>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را
+          می طلبد
+        </p>
+      </div>
+      <div class="left-section">
+        <img src="./assets/images/16.png" alt="" />
+      </div>
+    </div>
+    <!-- Section 02 End -->
+
+    <!-- Videos Section Start -->
+    <div class="videos-section">
+      <h3>ویدیو آموزشی برای معامله گران</h3>
+      <div class="swiper-wrapper-container">
+        <div class="swiper-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="./assets/images/28.png" alt="" /></a>
+              </div>
+            </div>
+            <img src="./assets/icons/Backward Arrow.svg" class="swiper-button-next" alt="" />
+            <img src="./assets/icons/Forward Arrow.svg" class="swiper-button-prev" alt="" />
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Videos Section End -->
+
+    <!-- PreFooter Start -->
+    <div class="prefooter">
+      <div class="right-section">
+        <h2>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h2>
+        <a href="" class="hover-Y">لورم ایپسوم<img src="./assets/icons/PreFooter Forward.svg" alt="" /></a>
+      </div>
+      <div class="left-section">
+        <img src="./assets/images/18.png" alt="" />
+      </div>
+    </div>
+    <!-- PreFooter End -->
+  </main>
+  <!-- Main End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="upper-section">
+      <div class="right-section">
+        <a href="#"><img src="./assets/images/Logo/Asset 1.png" class="hover-Y" alt="" /></a>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+          استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+        </p>
+      </div>
+      <div class="useful-links">
+        <h5>لینک های مفید</h5>
+        <ul>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+        </ul>
+      </div>
+      <div class="useful-links">
+        <h5>لینک های مفید</h5>
+        <ul>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+        </ul>
+      </div>
+      <div class="useful-links">
+        <h5>لینک های مفید</h5>
+        <ul>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+          <li><a href="#">لورم ایپسوم متن ساختگی</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-medias">
+      <a href="#"><img src="./assets/icons/Telegram App.svg" class="hover-Y" alt="" /></a>
+      <a href="#"><img src="./assets/icons/Instagram.svg" class="hover-Y" alt="" /></a>
+      <a href="#"><img src="./assets/icons/WhatsApp.svg" class="hover-Y" alt="" /></a>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./assets/script/index.js"></script>
+  <script src="./assets/script/particle.js"></script>
+  <!-- Swiper -->
+</body>
+
 </html>

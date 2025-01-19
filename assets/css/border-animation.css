@@ -1,0 +1,59 @@
+.plans-section {
+    .swiper-wrapper-container {
+        .plan.card-border-animation {
+            --border-animation-color: hsl(203.07deg 100% 21.09%);
+            --border-radius: 0.75rem;
+            --inset: 0.25rem;
+            cursor: pointer;
+            transition: all ease 0.3s;
+        }
+        
+        .plan.card-border-animation:hover {
+            --border-animation-color: hsl(203.07deg 100% 87.87%);
+            transition: all ease 0.3s;
+        }
+    }
+
+    .card-border-animation {
+        position: relative;
+        place-content: center;
+        isolation: isolate;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        border: 1px solid var(--color-primary);
+    }
+
+    .card-border-animation::before,
+    .card-border-animation::after {
+        content: '';
+        position: absolute;
+    }
+
+    .card-border-animation::before {
+        width: 200%;
+        height: 200%;
+        background-image:
+            conic-gradient(var(--border-animation-color) 0deg,
+                transparent 60deg,
+                transparent 180deg,
+                var(--border-animation-color) 180deg,
+                transparent 240deg);
+        inset: -50%;
+        z-index: -2;
+        animation: border-animation 8s linear infinite;
+    }
+
+
+    .card-border-animation::after {
+        background: inherit;
+        inset: var(--inset);
+        border-radius: calc(var(--border-radius) - var(--inset));
+        z-index: -1;
+    }
+}
+
+@keyframes border-animation {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}

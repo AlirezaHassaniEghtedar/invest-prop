@@ -1,484 +1,388 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SkyProp</title>
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/dashboard.css" />
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <div class="dashboard">
-      <div class="sidebar">
-        <div class="sidebar-header">
-          <span class="close-sidebar">&times;</span>
-          <a href="../index.html" class="hover-Y">
-            <img src="../assets/images/dashboard/Sky Logo Shape.png" alt="" />
-            <img src="../assets/images/dashboard/Sky Logo Name.png" alt="" />
-          </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyProp</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/dashboard.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="dashboard">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <span class="close-sidebar">&times;</span>
+        <a href="../index.html" class="hover-Y">
+          <img src="../assets/images/Logo/shape logo.png" alt="" />
+          <img src="../assets/images/Logo/persian-logo-characters-part.png" alt="" />
+        </a>
+      </div>
+      <div class="sidebar-menu">
+        <div class="menu-01 menu">
+          <span class="title">
+            <span>منوی اصلی</span>
+          </span>
+          <ul>
+            <li class="active">
+              <a href="./dashboard.html">
+                <img src="../assets/images/dashboard/active/Squared Menu.svg" alt="" />
+                <span>داشبورد</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/accounts.html"><img src="../assets/images/dashboard/Hard to Find.svg" alt="" />
+                <span>مدیریت چالش</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/challanges.html"><img src="../assets/images/dashboard/Buying.svg" alt="" />
+                <span>خرید اکانت</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/transactions.html"><img src="../assets/images/dashboard/Wallet.svg" alt="" />
+                <span>کیف پول</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/certificates.html">
+                <img src="../assets/images/dashboard/Diploma.svg" alt="" />
+                <span>سرتیفیکیت ها</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="./dashboard-reset-password.html"><img src="../assets/images/dashboard/Lock.svg" alt="" />
+                <span>تنظیم مجدد رمز عبور</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/christmas-event.html"><img src="../assets/images/dashboard/Christmas Tree.svg"
+                  alt="" />
+                <span>جشنواره کریسمس</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="sidebar-menu">
-          <div class="menu-01 menu">
-            <span class="title">
-              <span>منوی اصلی</span>
-            </span>
-            <ul>
-              <li class="active">
-                <a href="./dashboard.html">
-                  <img
-                    src="../assets/images/dashboard/active/Squared Menu.svg"
-                    alt=""
-                  />
-                  <span>داشبورد</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/accounts.html"
-                  ><img
-                    src="../assets/images/dashboard/Hard to Find.svg"
-                    alt=""
-                  />
-                  <span>مدیریت چالش</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/challanges.html"
-                  ><img src="../assets/images/dashboard/Buying.svg" alt="" />
-                  <span>خرید اکانت</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/transactions.html"
-                  ><img src="../assets/images/dashboard/Wallet.svg" alt="" />
-                  <span>کیف پول</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/certificates.html">
-                  <img src="../assets/images/dashboard/Diploma.svg" alt="" />
-                  <span>سرتیفیکیت ها</span>
-                </a>
-              </li>
-              <li class="">
-                <a href="./dashboard-reset-password.html"><img src="../assets/images/dashboard/Lock.svg" alt="" />
-                  <span>تنظیم مجدد رمز عبور</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/christmas-event.html"
-                  ><img
-                    src="../assets/images/dashboard/Christmas Tree.svg"
-                    alt=""
-                  />
-                  <span>جشنواره کریسمس</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="menu-02 menu">
-            <span class="title">تنظیمات حساب</span>
-            <ul>
-              <li>
-                <a href="../dashboard/profile.html"
-                  ><img src="../assets/images/dashboard/Profile.svg" alt="" />
-                  <span>پروفایل کاربری</span>
-                </a>
-              </li>
-              <li>
-                <a href="./Identity.html"
-                  ><img
-                    src="../assets/images/dashboard/Add Fingerprint.svg"
-                    alt=""
-                  />
-                  <span>احراز هویت</span>
-                </a>
-              </li>
-              <li>
-                <a href="../rules.html"
-                  ><img src="../assets/images/dashboard/Questions.svg" alt="" />
-                  <span>سوالات متداول</span>
-                </a>
-              </li>
-              <li>
-                <a href="../dashboard/tickets.html"
-                  ><img src="../assets/images/dashboard/Headset.svg" alt="" />
-                  <span>تیکت پشتیبانی</span>
-                </a>
-              </li>
-              <li>
-                <a href="./downloads.html"
-                  ><img
-                    src="../assets/images/dashboard/Download from the Cloud.svg"
-                    alt=""
-                  />
-                  <span>دانلود سنتر</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="menu-03 menu">
-            <ul>
-              <li>
-                <a href="../index.html"
-                  ><img src="../assets/images/dashboard/Undo.svg" alt="" />
-                  <span>بازگشت به وبسایت</span>
-                </a>
-              </li>
-              <li>
-                <a href="../index.html"
-                  ><img src="../assets/images/dashboard/Shutdown.svg" alt="" />
-                  <span>خروج از وبسایت</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="menu-02 menu">
+          <span class="title">تنظیمات حساب</span>
+          <ul>
+            <li>
+              <a href="../dashboard/profile.html"><img src="../assets/images/dashboard/Profile.svg" alt="" />
+                <span>پروفایل کاربری</span>
+              </a>
+            </li>
+            <li>
+              <a href="./Identity.html"><img src="../assets/images/dashboard/Add Fingerprint.svg" alt="" />
+                <span>احراز هویت</span>
+              </a>
+            </li>
+            <li>
+              <a href="../rules.html"><img src="../assets/images/dashboard/Questions.svg" alt="" />
+                <span>سوالات متداول</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashboard/tickets.html"><img src="../assets/images/dashboard/Headset.svg" alt="" />
+                <span>تیکت پشتیبانی</span>
+              </a>
+            </li>
+            <li>
+              <a href="./downloads.html"><img src="../assets/images/dashboard/Download from the Cloud.svg" alt="" />
+                <span>دانلود سنتر</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-03 menu">
+          <ul>
+            <li>
+              <a href="../index.html"><img src="../assets/images/dashboard/Undo.svg" alt="" />
+                <span>بازگشت به وبسایت</span>
+              </a>
+            </li>
+            <li>
+              <a href="../index.html"><img src="../assets/images/dashboard/Shutdown.svg" alt="" />
+                <span>خروج از وبسایت</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="main-content">
-        <div class="main-content-header">
-          <img
-            src="../assets/icons/mobile menu icon.svg"
-            class="sidebar-menu-icon"
-            alt=""
-          />
+    </div>
+    <div class="main-content">
+      <div class="main-content-header">
+        <img src="../assets/icons/mobile menu icon.svg" class="sidebar-menu-icon" alt="" />
 
-          <div class="user-profile">
-            <span class="user-name">امین حیایی</span>
-            <img src="../assets/images/dashboard/Male User.svg" alt="" />
+        <a href="../index.html" class="dash-header-logo hover-Y">
+          <img src="../assets/images/Logo/Invest-png -17.png" alt="">
+        </a>
+
+        <div class="user-profile">
+          <span class="user-name">امین حیایی</span>
+          <img src="../assets/images/dashboard/Male User.svg" alt="" />
+        </div>
+      </div>
+      <div class="main-content-content">
+        <h1>داشبورد کاربری</h1>
+
+        <div class="demos-test-accounts dashboard-section">
+          <h3>اکانت تست دمو</h3>
+          <div class="login-detail detail">
+            <div class="right">
+              <img src="../assets/images/dashboard/Copy.svg" alt="" />
+              <span>123456</span>
+            </div>
+
+            <div class="left">
+              <span>Log In</span>
+            </div>
+          </div>
+          <div class="master-pass-detail detail">
+            <div class="right">
+              <img src="../assets/images/dashboard/Copy.svg" alt="" />
+              <span>123456</span>
+            </div>
+
+            <div class="left">
+              <span>Master Pass</span>
+            </div>
+          </div>
+          <div class="server-detail detail">
+            <span>Server: UNFXB-Real / Platform: MT5</span>
           </div>
         </div>
-        <div class="main-content-content">
-          <h1>داشبورد کاربری</h1>
 
-          <div class="demos-test-accounts dashboard-section">
-            <h3>اکانت تست دمو</h3>
-            <div class="login-detail detail">
-              <div class="right">
-                <img src="../assets/images/dashboard/Copy.svg" alt="" />
-                <span>123456</span>
+        <div class="challanges-statistics dashboard-section">
+          <div class="section-header">
+            <h3>آمار چالش ها</h3>
+            <a href="#" class="view-all">
+              <span>مشاهده همه</span><img src="../assets/images/dashboard/Back.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="section-content">
+            <img src="../assets/images/dashboard/61 1.png" alt="" />
+            <span class="view-all">نتیجه ای یافت نشد</span>
+            <a href="#"><img src="../assets/images/dashboard/Add New.svg" alt="" />خرید
+              چالش</a>
+          </div>
+        </div>
+
+        <div class="top-traders dashboard-section">
+          <div class="section-header">
+            <h3>تریدر های برتر</h3>
+            <a href="#" class="view-all">
+              <span class="">مشاهده همه</span><img src="../assets/images/dashboard/Back.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="section-content">
+            <img src="../assets/images/dashboard/61 1.png" alt="" />
+            <span class="view-all">نتیجه ای یافت نشد</span>
+            <a href="#"><img src="../assets/images/dashboard/Add New.svg" alt="" />خرید
+              چالش</a>
+          </div>
+        </div>
+
+        <div class="last-orders dashboard-section">
+          <div class="section-header">
+            <h3>آخرین سفارشات</h3>
+            <a href="#" class="view-all">
+              <span>مشاهده همه</span><img src="../assets/images/dashboard/Back.svg" alt="" />
+            </a>
+          </div>
+
+          <ul class="orders">
+            <li>
+              <div class="order-right-section">
+                <img src="../assets/images/dashboard/Cash and Credit Card.svg" alt="" />
+
+                <span class="title">خرید چالش تتری</span>
+                <span class="price">50</span>
+                <span class="currency-unit">USDT</span>
               </div>
 
-              <div class="left">
-                <span>Log In</span>
+              <div class="order-left-section">
+                <span class="order-status confirmed">تایید شده</span>
+                <span class="time">14 : 14</span>
+                <span class="date">1403/10/10</span>
               </div>
-            </div>
-            <div class="master-pass-detail detail">
-              <div class="right">
-                <img src="../assets/images/dashboard/Copy.svg" alt="" />
-                <span>123456</span>
+            </li>
+            <li>
+              <div class="order-right-section">
+                <img src="../assets/images/dashboard/Cash and Credit Card.svg" alt="" />
+
+                <span class="title">خرید چالش تتری</span>
+                <span class="price">50</span>
+                <span class="currency-unit">USDT</span>
               </div>
 
-              <div class="left">
-                <span>Master Pass</span>
+              <div class="order-left-section">
+                <span class="order-status checking">در حال بررسی</span>
+                <span class="time">14 : 14</span>
+                <span class="date">1403/10/10</span>
               </div>
-            </div>
-            <div class="server-detail detail">
-              <span>Server: UNFXB-Real / Platform: MT5</span>
-            </div>
+            </li>
+            <li>
+              <div class="order-right-section">
+                <img src="../assets/images/dashboard/Cash and Credit Card.svg" alt="" />
+
+                <span class="title">خرید چالش تتری</span>
+                <span class="price">50</span>
+                <span class="currency-unit">USDT</span>
+              </div>
+
+              <div class="order-left-section">
+                <span class="order-status failed">خطا در تراکنش</span>
+                <span class="time">14 : 14</span>
+                <span class="date">1403/10/10</span>
+              </div>
+            </li>
+            <li>
+              <div class="order-right-section">
+                <img src="../assets/images/dashboard/Cash and Credit Card.svg" alt="" />
+
+                <span class="title">خرید چالش تتری</span>
+                <span class="price">50</span>
+                <span class="currency-unit">USDT</span>
+              </div>
+
+              <div class="order-left-section">
+                <span class="order-status confirmed">تایید شده</span>
+                <span class="time">14 : 14</span>
+                <span class="date">1403/10/10</span>
+              </div>
+            </li>
+            <li>
+              <div class="order-right-section">
+                <img src="../assets/images/dashboard/Cash and Credit Card.svg" alt="" />
+
+                <span class="title">خرید چالش تتری</span>
+                <span class="price">50</span>
+                <span class="currency-unit">USDT</span>
+              </div>
+
+              <div class="order-left-section">
+                <span class="order-status confirmed">تایید شده</span>
+                <span class="time">14 : 14</span>
+                <span class="date">1403/10/10</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="subsets-section dashboard-section">
+          <div class="section-header">
+            <h3>زیر مجموعه ها</h3>
+            <a href="#" class="view-all">
+              <span>مشاهده همه</span><img src="../assets/images/dashboard/Back.svg" alt="" />
+            </a>
           </div>
 
-          <div class="challanges-statistics dashboard-section">
-            <div class="section-header">
-              <h3>آمار چالش ها</h3>
-              <a href="#" class="view-all">
-                <span>مشاهده همه</span
-                ><img src="../assets/images/dashboard/Back.svg" alt="" />
-              </a>
-            </div>
+          <ul class="subsets">
+            <li>
+              <div class="subset-right-section">
+                <img src="../assets/images/dashboard/subset-image.png" alt="" class="subset-image" />
 
-            <div class="section-content">
-              <img src="../assets/images/dashboard/61 1.png" alt="" />
-              <span class="view-all">نتیجه ای یافت نشد</span>
-              <a href="#"
-                ><img src="../assets/images/dashboard/Add New.svg" alt="" />خرید
-                چالش</a
-              >
-            </div>
+                <span class="subset-name">محمدرضا حیایی</span>
+                <span class="number-of-orders">0 سفارش</span>
+              </div>
+              <div class="subset-left-setion">
+                <span class="membership-date">1403/10/10</span>
+                <span class="membership-date-title">: تاریخ عضویت</span>
+              </div>
+            </li>
+            <li>
+              <div class="subset-right-section">
+                <img src="../assets/images/dashboard/subset-image.png" alt="" class="subset-image" />
+
+                <span class="subset-name">محمدرضا حیایی</span>
+                <span class="number-of-orders">0 سفارش</span>
+              </div>
+              <div class="subset-left-setion">
+                <span class="membership-date">1403/10/10</span>
+                <span class="membership-date-title">: تاریخ عضویت</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="last-articles dashboard-section">
+          <div class="section-header">
+            <h3>آخرین مقالات</h3>
+            <a href="#" class="view-all">
+              <span>مشاهده همه</span><img src="../assets/images/dashboard/Back.svg" alt="" />
+            </a>
           </div>
 
-          <div class="top-traders dashboard-section">
-            <div class="section-header">
-              <h3>تریدر های برتر</h3>
-              <a href="#" class="view-all">
-                <span class="">مشاهده همه</span
-                ><img src="../assets/images/dashboard/Back.svg" alt="" />
-              </a>
-            </div>
-
-            <div class="section-content">
-              <img src="../assets/images/dashboard/61 1.png" alt="" />
-              <span class="view-all">نتیجه ای یافت نشد</span>
-              <a href="#"
-                ><img src="../assets/images/dashboard/Add New.svg" alt="" />خرید
-                چالش</a
-              >
-            </div>
-          </div>
-
-          <div class="last-orders dashboard-section">
-            <div class="section-header">
-              <h3>آخرین سفارشات</h3>
-              <a href="#" class="view-all">
-                <span>مشاهده همه</span
-                ><img src="../assets/images/dashboard/Back.svg" alt="" />
-              </a>
-            </div>
-
-            <ul class="orders">
-              <li>
-                <div class="order-right-section">
-                  <img
-                    src="../assets/images/dashboard/Cash and Credit Card.svg"
-                    alt=""
-                  />
-
-                  <span class="title">خرید چالش تتری</span>
-                  <span class="price">50</span>
-                  <span class="currency-unit">USDT</span>
+          <div class="acticles-container">
+            <a href="../blog-post.html" class="article">
+              <img src="../assets/images/Blog Post Image.png" class="blog-post-image" alt="" />
+              <div class="blog-post-details">
+                <div class="date-and-reviews">
+                  <span class="blog-post-date"><img src="../assets/images/dashboard/Calendar.svg"
+                      alt="" />1403/10/10</span>
+                  <span class="blog-post-reviews"><img src="../assets/images/dashboard/Eye.svg" alt="" />800</span>
                 </div>
-
-                <div class="order-left-section">
-                  <span class="order-status confirmed">تایید شده</span>
-                  <span class="time">14 : 14</span>
-                  <span class="date">1403/10/10</span>
+              </div>
+              <h6>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+              </h6>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                مجله در ستون و سطرآنچنان که لازم است
+              </p>
+            </a>
+            <a href="../blog-post.html" class="article">
+              <img src="../assets/images/Blog Post Image.png" class="blog-post-image" alt="" />
+              <div class="blog-post-details">
+                <div class="date-and-reviews">
+                  <span class="blog-post-date"><img src="../assets/images/dashboard/Calendar.svg"
+                      alt="" />1403/10/10</span>
+                  <span class="blog-post-reviews"><img src="../assets/images/dashboard/Eye.svg" alt="" />800</span>
                 </div>
-              </li>
-              <li>
-                <div class="order-right-section">
-                  <img
-                    src="../assets/images/dashboard/Cash and Credit Card.svg"
-                    alt=""
-                  />
-
-                  <span class="title">خرید چالش تتری</span>
-                  <span class="price">50</span>
-                  <span class="currency-unit">USDT</span>
+              </div>
+              <h6>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+              </h6>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                مجله در ستون و سطرآنچنان که لازم است
+              </p>
+            </a>
+            <a href="../blog-post.html" class="article">
+              <img src="../assets/images/Blog Post Image.png" class="blog-post-image" alt="" />
+              <div class="blog-post-details">
+                <div class="date-and-reviews">
+                  <span class="blog-post-date"><img src="../assets/images/dashboard/Calendar.svg"
+                      alt="" />1403/10/10</span>
+                  <span class="blog-post-reviews"><img src="../assets/images/dashboard/Eye.svg" alt="" />800</span>
                 </div>
-
-                <div class="order-left-section">
-                  <span class="order-status checking">در حال بررسی</span>
-                  <span class="time">14 : 14</span>
-                  <span class="date">1403/10/10</span>
-                </div>
-              </li>
-              <li>
-                <div class="order-right-section">
-                  <img
-                    src="../assets/images/dashboard/Cash and Credit Card.svg"
-                    alt=""
-                  />
-
-                  <span class="title">خرید چالش تتری</span>
-                  <span class="price">50</span>
-                  <span class="currency-unit">USDT</span>
-                </div>
-
-                <div class="order-left-section">
-                  <span class="order-status failed">خطا در تراکنش</span>
-                  <span class="time">14 : 14</span>
-                  <span class="date">1403/10/10</span>
-                </div>
-              </li>
-              <li>
-                <div class="order-right-section">
-                  <img
-                    src="../assets/images/dashboard/Cash and Credit Card.svg"
-                    alt=""
-                  />
-
-                  <span class="title">خرید چالش تتری</span>
-                  <span class="price">50</span>
-                  <span class="currency-unit">USDT</span>
-                </div>
-
-                <div class="order-left-section">
-                  <span class="order-status confirmed">تایید شده</span>
-                  <span class="time">14 : 14</span>
-                  <span class="date">1403/10/10</span>
-                </div>
-              </li>
-              <li>
-                <div class="order-right-section">
-                  <img
-                    src="../assets/images/dashboard/Cash and Credit Card.svg"
-                    alt=""
-                  />
-
-                  <span class="title">خرید چالش تتری</span>
-                  <span class="price">50</span>
-                  <span class="currency-unit">USDT</span>
-                </div>
-
-                <div class="order-left-section">
-                  <span class="order-status confirmed">تایید شده</span>
-                  <span class="time">14 : 14</span>
-                  <span class="date">1403/10/10</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="subsets-section dashboard-section">
-            <div class="section-header">
-              <h3>زیر مجموعه ها</h3>
-              <a href="#" class="view-all">
-                <span>مشاهده همه</span
-                ><img src="../assets/images/dashboard/Back.svg" alt="" />
-              </a>
-            </div>
-
-            <ul class="subsets">
-              <li>
-                <div class="subset-right-section">
-                  <img
-                    src="../assets/images/dashboard/subset-image.png"
-                    alt=""
-                    class="subset-image"
-                  />
-
-                  <span class="subset-name">محمدرضا حیایی</span>
-                  <span class="number-of-orders">0 سفارش</span>
-                </div>
-                <div class="subset-left-setion">
-                  <span class="membership-date">1403/10/10</span>
-                  <span class="membership-date-title">: تاریخ عضویت</span>
-                </div>
-              </li>
-              <li>
-                <div class="subset-right-section">
-                  <img
-                    src="../assets/images/dashboard/subset-image.png"
-                    alt=""
-                    class="subset-image"
-                  />
-
-                  <span class="subset-name">محمدرضا حیایی</span>
-                  <span class="number-of-orders">0 سفارش</span>
-                </div>
-                <div class="subset-left-setion">
-                  <span class="membership-date">1403/10/10</span>
-                  <span class="membership-date-title">: تاریخ عضویت</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="last-articles dashboard-section">
-            <div class="section-header">
-              <h3>آخرین مقالات</h3>
-              <a href="#" class="view-all">
-                <span>مشاهده همه</span
-                ><img src="../assets/images/dashboard/Back.svg" alt="" />
-              </a>
-            </div>
-
-            <div class="acticles-container">
-              <a href="../blog-post.html" class="article">
-                <img
-                  src="../assets/images/Blog Post Image.png"
-                  class="blog-post-image"
-                  alt=""
-                />
-                <div class="blog-post-details">
-                  <div class="date-and-reviews">
-                    <span class="blog-post-date"
-                      ><img
-                        src="../assets/images/dashboard/Calendar.svg"
-                        alt=""
-                      />1403/10/10</span
-                    >
-                    <span class="blog-post-reviews"
-                      ><img
-                        src="../assets/images/dashboard/Eye.svg"
-                        alt=""
-                      />800</span
-                    >
-                  </div>
-                </div>
-                <h6>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                </h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </a>
-              <a href="../blog-post.html" class="article">
-                <img
-                  src="../assets/images/Blog Post Image.png"
-                  class="blog-post-image"
-                  alt=""
-                />
-                <div class="blog-post-details">
-                  <div class="date-and-reviews">
-                    <span class="blog-post-date"
-                      ><img
-                        src="../assets/images/dashboard/Calendar.svg"
-                        alt=""
-                      />1403/10/10</span
-                    >
-                    <span class="blog-post-reviews"
-                      ><img
-                        src="../assets/images/dashboard/Eye.svg"
-                        alt=""
-                      />800</span
-                    >
-                  </div>
-                </div>
-                <h6>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                </h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </a>
-              <a href="../blog-post.html" class="article">
-                <img
-                  src="../assets/images/Blog Post Image.png"
-                  class="blog-post-image"
-                  alt=""
-                />
-                <div class="blog-post-details">
-                  <div class="date-and-reviews">
-                    <span class="blog-post-date"
-                      ><img
-                        src="../assets/images/dashboard/Calendar.svg"
-                        alt=""
-                      />1403/10/10</span
-                    >
-                    <span class="blog-post-reviews"
-                      ><img
-                        src="../assets/images/dashboard/Eye.svg"
-                        alt=""
-                      />800</span
-                    >
-                  </div>
-                </div>
-                <h6>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                </h6>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </a>
-            </div>
+              </div>
+              <h6>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+              </h6>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                مجله در ستون و سطرآنچنان که لازم است
+              </p>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-    <!-- <script src="../assets/script/rules.js"></script> -->
-    <script src="../assets/script/dashboard.js"></script>
-    <!-- Swiper -->
-  </body>
+  </div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <!-- <script src="../assets/script/rules.js"></script> -->
+  <script src="../assets/script/dashboard.js"></script>
+  <!-- Swiper -->
+</body>
+
 </html>
