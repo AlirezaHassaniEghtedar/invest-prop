@@ -281,7 +281,7 @@ body {
       }
     }
   
-    .sidebar.deactive {
+    /* .sidebar.deactive {
       width: 75px;
       transition: all ease 0.3s;
   
@@ -315,7 +315,7 @@ body {
     .sidebar.deactive ~ .main-content {
       margin-right: 75px;
       transition: all ease 0.3s;
-    }
+    } */
   }
 
 

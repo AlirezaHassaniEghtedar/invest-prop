@@ -240,6 +240,10 @@ main {
       }
 
       .swiper-wrapper {
+
+        .swiper-slide-next {
+          visibility: hidden;
+        }
         .swiper-slide {
           display: flex;
           gap: 4.75rem;
